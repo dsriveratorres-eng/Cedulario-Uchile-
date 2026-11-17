@@ -1,0 +1,9 @@
+{
+  "name": "examen-grado-uchile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Preparador del examen de licenciatura de la U. de Chile (Civil y Procesal), sitio estático",
+  "scripts": { "datos": "node scripts/generar-datos.mjs" },
+  "devDependencies": { "js-yaml": "^4.1.0" }
+}
